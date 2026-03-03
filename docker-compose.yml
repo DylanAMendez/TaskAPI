@@ -1,0 +1,6 @@
+﻿services:
+  task-api:
+    image: dylanamendez/task-api:v1.0
+    build: .
+    ports:
+      - "8080:8080"
